@@ -31,9 +31,6 @@ function Header() {
               0
             </span>
             <ShoppingCartIcon className="h-10 " />
-            <p className="hidden md:inline font-extrabold md:text-sm mt-2">
-              Basket
-            </p>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Products from "./Products.js";
 
 function ProductFeed({ products }) {
   return (
-    <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols- lg:grid-cols-3 xl:grid-cols-4 md:-mt-52 mx-auto">
+    <div className="grid grid-flow-row-dense  sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 md:-mt-52 mx-auto">
       {products
         .slice(0, 4)
         .map(({ id, title, price, description, category, image }) => (
